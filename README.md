@@ -75,26 +75,6 @@ To run this project, you will need to:
    - Test the XML file on images and videos using Python to validate the performance of the classifier.
    - Run the provided Python scripts to test and validate your trained classifier.
 
-## Running the Python Scripts
-
-To use the trained classifier, you can run one of the following scripts:
-
-- **For image mask detection:**
-
-   ```bash
-   python python scripts/image-mask-detection.py
-   ```
-
-   This script loads an image and detects if faces are wearing masks.
-
-- **For video mask detection:**
-
-   ```bash
-   python python scripts/video-mask-detection.py
-   ```
-
-   This script processes a video file and detects masks on faces in each frame.
-
 ## Conclusion
 
 This project demonstrates how to create a Haar Cascade classifier for mask detection, covering data collection, training, and testing phases. It is a useful example for anyone looking to build object detection classifiers using Haar Cascades in Python.
