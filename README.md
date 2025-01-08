@@ -82,7 +82,7 @@ To use the trained classifier, you can run one of the following scripts:
 - **For image mask detection:**
 
    ```bash
-   python python_scripts/image_mask_detection.py
+   python python scripts/image-mask-detection.py
    ```
 
    This script loads an image and detects if faces are wearing masks.
@@ -90,7 +90,7 @@ To use the trained classifier, you can run one of the following scripts:
 - **For video mask detection:**
 
    ```bash
-   python python_scripts/video_mask_detection.py
+   python python scripts/video-mask-detection.py
    ```
 
    This script processes a video file and detects masks on faces in each frame.
